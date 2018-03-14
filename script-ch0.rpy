@@ -442,7 +442,8 @@ label ch0_main:
     y "You must be willing to open up to your readers, exposing your vulnerabilities and showing even the deepest reaches of your heart."
     show natsuki at thide zorder 1
     hide natsuki
-    show monika 2a at t33 zorder 2
+
+show monika 2a at t33 zorder 2
     m "Do you have writing experience too, Yuri?"
     m "Maybe if you share some of your work, you can set an example and help Natsuki feel comfortable enough to share hers."
     show yuri at s31
@@ -457,9 +458,9 @@ label ch0_main:
     hide yuri
     hide monika
     "We all sit in silence for a moment."
-    show monika 5a at f32 zorder 
+    show monika 5a at f32 zorder 2
     m "Okay!"
-    m "I have an idea, everyone~"
+'    m "I have an idea, everyone~"
     show yuri 3e at t31 zorder 2
     show natsuki 2k at t33 zorder 2
     ny "...?"
@@ -469,7 +470,7 @@ label ch0_main:
     m "That way, everyone is even!"
     show monika 2a at t32 zorder 2
     show natsuki at f33 zorder 3
-    n 5q "U-Um..."
+.    n 5q "U-Um..."
     show natsuki at t33 zorder 2
     show yuri 3v at f31 zorder 3
     y "..."
@@ -513,13 +514,22 @@ label ch0_main:
     hide sayori
     "Look like everyone sad.."
     "When i not join a Clubs..."
+    m 1p "[player]...."
+    s "[player] You make me upset...."
+    mc "Sorry i have too.. i am not going you clubs Monika."
+    mc "Bye..."
+    m "Wait [player]..."
 
     scene bg residential_day
     with wipeleft_scene
 
     "I going home."
     m "[player] Wait"
-    m "I know you try run away from me?"
+    m "I know you try run away from?"
     "Oh no how she know?"
+    "I try run away!!!!!"
+    "I don't want go back to club!!"
+    m "HEY COME BACK [player]!!!"
+    s "[player]!!!"
     
     return
