@@ -457,7 +457,7 @@ label ch0_main:
     hide yuri
     hide monika
     "We all sit in silence for a moment."
-    show monika 5a at f32 zorder 3
+    show monika 5a at f32 zorder 
     m "Okay!"
     m "I have an idea, everyone~"
     show yuri 3e at t31 zorder 2
@@ -495,7 +495,7 @@ label ch0_main:
     show sayori 1g
     show natsuki 4g
     show yuri 2e
-    "I lose my train of thought."
+    "I lose my train of thought"
     "All four girls stare back at me with dejected eyes."
     show monika at s43
     m 1p "B-But..."
@@ -505,82 +505,21 @@ label ch0_main:
     n 5s "Hmph."
     show sayori at s41
     s 1k "[player]..."
-    mc "Y-You all..."
-    "I...I'm defenseless against these girls."
-    "How am I supposed to make a clear-headed decision when it's like this?"
-    "That is, if writing poems is the price I need to pay in order to spend every day with these beautiful girls..."
-    mc "...Right."
-    mc "Okay, I've decided, then."
-    mc "I'll join the Literature Club."
-    show monika 1e at t43 zorder 2
-    show yuri 3f at t42 zorder 2
-    show natsuki 1k at t44 zorder 2
-    show sayori 4b at t41 zorder 2
-    "One by one, the girls' eyes light up."
-    show sayori at h41
-    s 4r "Yesss! I'm so happyyy~"
-    "Sayori wraps her arms around me, jumping up and down."
-    mc "H-Hey--"
-    show yuri at f42 zorder 3
-    y 1m "You really did scare me for a moment..."
-    show yuri at t42 zorder 2
-    show natsuki at f44 zorder 3
-    n 5q "If you really just came for the cupcakes, I would be super pissed."
-    show natsuki at t44 zorder 2
-    show monika at f43 zorder 3
-    m 5 "Then that makes it official!"
-    m "Welcome to the Literature Club!"
-    show monika at t43 zorder 2
-    mc "Ah...thanks, I guess."
-    show yuri at thide zorder 1
-    show natsuki at thide zorder 1
-    show sayori at thide zorder 1
-    show monika at t11 zorder 2
+    mc "Well i go home i don't want join clubs"
+    m 1p "why [player] you don't love it?"
+    mc "Yeah i not love it.."
     hide yuri
     hide natsuki
     hide sayori
-    m 3b "Okay, everyone!"
-    m "I think with that, we can officially end today's meeting on a good note."
-    m "Everyone remember tonight's assignment:"
-    m "Write a poem to bring to the next meeting, so we can all share!"
-    "Monika looks over at me once more."
-    m 1a "[player], I look forward to seeing how you express yourself."
-    show monika 5 at hop
-    m "Ehehe~"
-    mc "Y-Yeah..."
-    show monika at thide zorder 1
-    hide monika
-    "Can I really impress the class star Monika with my mediocre writing skills?"
-    "I already feel the anxiety welling up inside me."
-    "Meanwhile, the girls continue to chit-chat as Yuri and Natsuki clean up their food."
-    show sayori 1a at t11 zorder 2
-    s "Hey, [player], since we're already here, do you want to walk home together?"
-    "That's right - Sayori and I never walk home together anymore because she always stayed after school for clubs."
-    mc "Sure, might as well."
-    s 4q "Yaay~"
+    "Look like everyone sad.."
+    "When i not join a Clubs..."
 
     scene bg residential_day
     with wipeleft_scene
 
-    "With that, the two of us depart the clubroom and make our way home."
-    "The whole way, my mind wanders back and forth between the four girls:"
-    show sayori 1 at t41 zorder 2
-    "Sayori,"
-    show natsuki 4 at t42 zorder 2
-    "Natsuki,"
-    show yuri 1 at t43 zorder 2
-    "Yuri,"
-    show monika 1 at t44 zorder 2
-    "and, of course, Monika."
-    "Will I really be happy spending every day after school in a literature club?"
-    "Perhaps I'll have the chance to grow closer to one of these girls..."
-    hide sayori
-    hide natsuki
-    hide yuri
-    hide monika
-    with wipeleft
-    "Alright!"
-    "I'll just need to make the most of my circumstances, and I'm sure good fortune will find me."
-    "And I guess that starts with writing a poem tonight..."
-
+    "I going home."
+    m "[player] Wait"
+    m "I know you try run away from me?"
+    "Oh no how she know?"
+    
     return
