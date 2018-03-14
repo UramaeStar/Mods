@@ -523,13 +523,18 @@ label ch0_main:
     scene bg residential_day
     with wipeleft_scene
 
+    play music t7
     "I going home."
     m "[player] Wait"
-    m "I know you try run away from?"
+    m "I know you try run away from me?"
     "Oh no how she know?"
     "I try run away!!!!!"
     "I don't want go back to club!!"
     m "HEY COME BACK [player]!!!"
     s "[player]!!!"
+    "Where i am to run???"
+    "Look like need go to home!"
+    m "Sayori Do you see [player]?"
+    s "No i don't know [player] run away from the club so fast..."
     
     return
