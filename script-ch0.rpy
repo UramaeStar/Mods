@@ -382,8 +382,8 @@ label ch0_main:
     y 1a "I guess you could say that."
     y "But if a story makes me think, or takes me to another world, then I really can't put it down."
     y "Surreal horror is often very successful at changing the way you look at the world, if only for a brief moment."
-
-show yuri at t32 zorder 2
+    
+    show yuri at t32 zorder 2
     show natsuki 5q at f31 zorder 3
     n "Ugh, I hate horror..."
     show natsuki at t31 zorder 2
