@@ -382,7 +382,8 @@ label ch0_main:
     y 1a "I guess you could say that."
     y "But if a story makes me think, or takes me to another world, then I really can't put it down."
     y "Surreal horror is often very successful at changing the way you look at the world, if only for a brief moment."
-    show yuri at t32 zorder 2
+
+show yuri at t32 zorder 2
     show natsuki 5q at f31 zorder 3
     n "Ugh, I hate horror..."
     show natsuki at t31 zorder 2
@@ -402,7 +403,7 @@ label ch0_main:
     n "What gives you that idea?"
     show natsuki at t31 zorder 2
     show monika at f33 zorder 3
-    m 3b "You left a piece of scrap paper behind last club meeting.
+    m 3b "You left a piece of scrap paper behind last club meeting."
     m "It looked like you were working on a poem called--"
     show monika at t33 zorder 2
     show natsuki 1p at f31 zorder 3
@@ -412,9 +413,11 @@ label ch0_main:
     show monika at f33 zorder 3
     m 1j "Fine, fine~"
     show monika at thide zorder 1
-    show yuri at thide zorder 1    hide monika
+    show yuri at thide zorder 1 
+    hide monika
     hide yuri
-    show natsuki 1r at t42 zorder 2    show sayori 4q at l41 behind natsuki
+    show natsuki 1r at t42 zorder 2  
+    show sayori 4q at l41 behind natsuki
     s "Ehehe, your cupcakes, your poems..."
     s "Everything you do is just as cute as you are~"
     show sayori at t21 behind natsuki
