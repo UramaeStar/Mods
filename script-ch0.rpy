@@ -402,7 +402,7 @@ label ch0_main:
     n "What gives you that idea?"
     show natsuki at t31 zorder 2
     show monika at f33 zorder 3
-    m 3b "You left a piece of scrap paper behind last club meeting."
+    m 3b "You left a piece of scrap paper behind last club meeting.
     m "It looked like you were working on a poem called--"
     show monika at t33 zorder 2
     show natsuki 1p at f31 zorder 3
@@ -412,11 +412,9 @@ label ch0_main:
     show monika at f33 zorder 3
     m 1j "Fine, fine~"
     show monika at thide zorder 1
-    show yuri at thide zorder 1
-    hide monika
+    show yuri at thide zorder 1    hide monika
     hide yuri
-    show natsuki 1r at t42 zorder 2
-    show sayori 4q at l41 behind natsuki
+    show natsuki 1r at t42 zorder 2    show sayori 4q at l41 behind natsuki
     s "Ehehe, your cupcakes, your poems..."
     s "Everything you do is just as cute as you are~"
     show sayori at t21 behind natsuki
@@ -443,7 +441,7 @@ label ch0_main:
     show natsuki at thide zorder 1
     hide natsuki
 
-show monika 2a at t33 zorder 2
+    show monika 2a at t33 zorder 2
     m "Do you have writing experience too, Yuri?"
     m "Maybe if you share some of your work, you can set an example and help Natsuki feel comfortable enough to share hers."
     show yuri at s31
@@ -460,7 +458,7 @@ show monika 2a at t33 zorder 2
     "We all sit in silence for a moment."
     show monika 5a at f32 zorder 2
     m "Okay!"
-'    m "I have an idea, everyone~"
+    m "I have an idea, everyone~"
     show yuri 3e at t31 zorder 2
     show natsuki 2k at t33 zorder 2
     ny "...?"
@@ -470,7 +468,7 @@ show monika 2a at t33 zorder 2
     m "That way, everyone is even!"
     show monika 2a at t32 zorder 2
     show natsuki at f33 zorder 3
-.    n 5q "U-Um..."
+    n 5q "U-Um..."
     show natsuki at t33 zorder 2
     show yuri 3v at f31 zorder 3
     y "..."
